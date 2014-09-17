@@ -1,1 +1,3 @@
-console.log('test')
+exports.somme = function (a, b) {
+    return a + b
+};
