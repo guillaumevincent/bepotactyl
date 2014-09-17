@@ -2,15 +2,17 @@
     "name": "nodejs-start",
     "version": "0.0.0",
     "description": "nodejs boilerplate",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/guillaumevincent/nodejs-start"
+    "main": "app/index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha tests/**/*.js"
     },
     "author": "Guillaume Vincent <gvincent@oslab.fr>",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/guillaumevincent/nodejs-start/issues"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/guillaumevincent/nodejs-start.git"
     },
-    "homepage": "https://github.com/guillaumevincent/nodejs-start"
+    "devDependencies": {
+        "mocha": "^1.21.4"
+    }
 }
