@@ -1,6 +1,6 @@
 /*******************************************************************************
-À inclure en fin de page pour le démarrage
-*******************************************************************************/
+ À inclure en fin de page pour le démarrage
+ *******************************************************************************/
 
 document.getElementById("rd_txt").innerHTML = ""; // effacement du message javascipt
 new_text();
