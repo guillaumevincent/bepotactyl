@@ -1,6 +1,10 @@
-nodejs-start
-============
+bepodactyl
+==========
 
+assume la présence de 
+
+  * nodejs
+  * npm
 
 installer dépendances:
 
